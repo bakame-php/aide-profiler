@@ -2,6 +2,24 @@
 
 All Notable changes to `bakame/aide-profiler` will be documented in this file.
 
+### Added
+
+- `Report` class and the `Profiler::statistics` methods.
+
+### Fixed
+
+- None
+
+### Deprecated 
+
+- None
+
+### Removed
+
+- the static methods on `Profiler` are almost all removed except for the `metrics` and `statistics` methods.
+- `ProfiledResult` is renamed `Result`
+
+
 ## [0.10.0 - Johannesburg](https://github.com/bakame-php/aide-profiler/compare/0.9,0...0.10.0) - 2025-07-17
 
 ### Added
